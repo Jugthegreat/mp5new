@@ -19,18 +19,18 @@ from absl import app, flags
 
 FLAGS = flags.FLAGS
 flags.DEFINE_float('lr', 1e-4, 'Learning Rate')
-flags.DEFINE_float('step_lr', 2e-3, 'Step LR for sampling')
-flags.DEFINE_integer('num_epochs', 3, 'Number of Epochs')
+flags.DEFINE_float('step_lr', 1e-5, 'Step LR for sampling')
+flags.DEFINE_integer('num_epochs', 10, 'Number of Epochs')  # increased from 3 to 10
 flags.DEFINE_integer('seed', 2, 'Random seed')
-flags.DEFINE_string('output_dir', 'runs/mnist-fc/', 'Output Directory')
-flags.DEFINE_string('model_type', 'simple_fc', 'Network to use')
-flags.DEFINE_float('sigma_begin', 2, 'Largest sigma value')
-flags.DEFINE_float('sigma_end', 0.1, 'Smallest sigma value')
+flags.DEFINE_string('output_dir', 'runs/mnist-unet/', 'Output Directory')
+flags.DEFINE_string('model_type', 'unet', 'Network to use')  # use UNet
+flags.DEFINE_float('sigma_begin', 1.0, 'Largest sigma value')  # adjusted
+flags.DEFINE_float('sigma_end', 0.01, 'Smallest sigma value')  # adjusted
 flags.DEFINE_integer('noise_level', 20, 'Number of noise levels')
 flags.DEFINE_integer('log_every', 200, 'Frequency of logging the loss')
 flags.DEFINE_integer('sample_every', 200, 'Frequency for saving generated samples')
 flags.DEFINE_integer('batch_size', 128, 'Batch Size for Training')
-flags.DEFINE_string('sigma_type', 'geometric', 'The type of sigma distribution, geometric or linear')
+flags.DEFINE_string('sigma_type', 'geometric', 'The type of sigma distribution')
 flags.DEFINE_string('mnist_data_dir', './data', 'Where to download MNIST dataset')
 
 def setup_logging():
@@ -61,12 +61,13 @@ def train_scorenet(_):
     writer = SummaryWriter(FLAGS.output_dir, max_queue=1000, flush_secs=120)
 
     if FLAGS.model_type == "unet":
-        net = UNet()
-    elif FLAGS.model_type == "simple_fc":
+        net = UNet(in_channels=1, out_channels=1)
+    else:
+        # fallback to simple_fc if needed
         net = torch.nn.Sequential(
-          SimpleEncoder(input_size=1024, hidden_size=128, latent_size=16),
-          SimpleDecoder(latent_size=16, hidden_size=128, output_size=1024))
-    
+            SimpleEncoder(input_size=1024, hidden_size=128, latent_size=16),
+            SimpleDecoder(latent_size=16, hidden_size=128, output_size=1024))
+
     scorenet = ScoreNet(net, FLAGS.sigma_begin, FLAGS.sigma_end,
                         FLAGS.noise_level, FLAGS.sigma_type)
     logging.info(f'Number of parameters in ScoreNet: {count_parameters(scorenet)}')
@@ -91,17 +92,19 @@ def train_scorenet(_):
             loss.backward()
             optimizer.step()
             
-            train_loss += [loss.item()]
+            train_loss.append(loss.item())
             iterations += 1
 
             if iterations % FLAGS.log_every == 0:
-                writer.add_scalar('loss', np.mean(train_loss), iterations)
-                logger('loss', np.mean(train_loss), iterations)
+                mean_loss = np.mean(train_loss)
+                writer.add_scalar('loss', mean_loss, iterations)
+                logger('loss', mean_loss, iterations)
                 train_loss = []
             
             if iterations % FLAGS.sample_every == 0:
                 scorenet.eval()
                 with torch.no_grad():
+                    # Generate samples
                     X_gen = scorenet.sample(64, 1024, step_lr=FLAGS.step_lr)[-1, -1].view(-1, 1, 32, 32)
                     
                     samples_image = BytesIO()
@@ -111,6 +114,7 @@ def train_scorenet(_):
                     samples_image.save(file_name)
                     writer.add_image('samples', np.transpose(np.array(samples_image), [2,0,1]), iterations)
 
+                    # Ground-truth images for reference
                     X_gt = data.view(-1,1,32,32)[:64]
                     gt_image = BytesIO()
                     tvutils.save_image(X_gt, gt_image, 'png')
