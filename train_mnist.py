@@ -19,18 +19,18 @@ from absl import app, flags
 
 FLAGS = flags.FLAGS
 flags.DEFINE_float('lr', 1e-4, 'Learning Rate')
-flags.DEFINE_float('step_lr', 2e-5, 'Step LR for sampling')  # Slightly larger step size for diffusion steps
-flags.DEFINE_integer('num_epochs', 20, 'Number of Epochs')  # Increased to allow more training
+flags.DEFINE_float('step_lr', 1e-5, 'Step LR for sampling')
+flags.DEFINE_integer('num_epochs', 10, 'Number of Epochs')  # increased from 3 to 10
 flags.DEFINE_integer('seed', 2, 'Random seed')
-flags.DEFINE_string('output_dir', 'runs/mnist-unet-improved/', 'Output Directory')
-flags.DEFINE_string('model_type', 'unet', 'Network to use')
-flags.DEFINE_float('sigma_begin', 2.0, 'Largest sigma value')  # Slightly larger start sigma
-flags.DEFINE_float('sigma_end', 0.1, 'Smallest sigma value')   # Larger end sigma than before
-flags.DEFINE_integer('noise_level', 30, 'Number of noise levels')  # More noise levels for finer granularity
+flags.DEFINE_string('output_dir', 'runs/mnist-unet/', 'Output Directory')
+flags.DEFINE_string('model_type', 'unet', 'Network to use')  # use UNet
+flags.DEFINE_float('sigma_begin', 1.0, 'Largest sigma value')  # adjusted
+flags.DEFINE_float('sigma_end', 0.01, 'Smallest sigma value')  # adjusted
+flags.DEFINE_integer('noise_level', 20, 'Number of noise levels')
 flags.DEFINE_integer('log_every', 200, 'Frequency of logging the loss')
 flags.DEFINE_integer('sample_every', 200, 'Frequency for saving generated samples')
 flags.DEFINE_integer('batch_size', 128, 'Batch Size for Training')
-flags.DEFINE_string('sigma_type', 'linear', 'The type of sigma distribution, geometric or linear')
+flags.DEFINE_string('sigma_type', 'geometric', 'The type of sigma distribution')
 flags.DEFINE_string('mnist_data_dir', './data', 'Where to download MNIST dataset')
 
 def setup_logging():
@@ -63,6 +63,7 @@ def train_scorenet(_):
     if FLAGS.model_type == "unet":
         net = UNet(in_channels=1, out_channels=1)
     else:
+        # fallback to simple_fc if needed
         net = torch.nn.Sequential(
             SimpleEncoder(input_size=1024, hidden_size=128, latent_size=16),
             SimpleDecoder(latent_size=16, hidden_size=128, output_size=1024))
