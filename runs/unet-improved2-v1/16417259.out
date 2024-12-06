@@ -1,0 +1,10326 @@
+Runnng on ccc0387.campuscluster.illinois.edu
+Thu Dec  5 18:02:46 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          Off |   00000000:C1:00.0 Off |                    0 |
+| N/A   25C    P0             64W /  500W |       1MiB /  81920MiB |     26%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+2024-12-05 18:02:51: INFO train_mnist.py:72] Number of parameters in ScoreNet: 31030593
+2024-12-05 18:03:26: INFO train_mnist.py:51]       loss [0000200]: 0.283892
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:03:33: INFO train_mnist.py:51]       loss [0000400]: 0.126645
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:03:40: INFO train_mnist.py:51]       loss [0000600]: 0.082091
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:03:47: INFO train_mnist.py:51]       loss [0000800]: 0.066171
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:03:54: INFO train_mnist.py:51]       loss [0001000]: 0.059011
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:04:01: INFO train_mnist.py:51]       loss [0001200]: 0.055075
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:04:08: INFO train_mnist.py:51]       loss [0001400]: 0.052734
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:04:16: INFO train_mnist.py:51]       loss [0001600]: 0.050279
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:04:23: INFO train_mnist.py:51]       loss [0001800]: 0.048953
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:04:30: INFO train_mnist.py:51]       loss [0002000]: 0.047651
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:04:37: INFO train_mnist.py:51]       loss [0002200]: 0.046179
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:04:44: INFO train_mnist.py:51]       loss [0002400]: 0.045127
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:04:51: INFO train_mnist.py:51]       loss [0002600]: 0.044934
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:04:58: INFO train_mnist.py:51]       loss [0002800]: 0.043351
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:05:05: INFO train_mnist.py:51]       loss [0003000]: 0.042654
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:05:12: INFO train_mnist.py:51]       loss [0003200]: 0.042515
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:05:19: INFO train_mnist.py:51]       loss [0003400]: 0.041438
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:05:26: INFO train_mnist.py:51]       loss [0003600]: 0.040813
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:05:33: INFO train_mnist.py:51]       loss [0003800]: 0.040710
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:05:40: INFO train_mnist.py:51]       loss [0004000]: 0.040326
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:05:46: INFO train_mnist.py:51]       loss [0004200]: 0.039061
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:05:53: INFO train_mnist.py:51]       loss [0004400]: 0.038970
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:06:00: INFO train_mnist.py:51]       loss [0004600]: 0.038181
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:06:07: INFO train_mnist.py:51]       loss [0004800]: 0.038310
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:06:14: INFO train_mnist.py:51]       loss [0005000]: 0.037609
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:06:21: INFO train_mnist.py:51]       loss [0005200]: 0.037536
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:06:28: INFO train_mnist.py:51]       loss [0005400]: 0.038112
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:06:35: INFO train_mnist.py:51]       loss [0005600]: 0.036868
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:06:42: INFO train_mnist.py:51]       loss [0005800]: 0.036567
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:06:49: INFO train_mnist.py:51]       loss [0006000]: 0.036120
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:06:56: INFO train_mnist.py:51]       loss [0006200]: 0.036010
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:07:03: INFO train_mnist.py:51]       loss [0006400]: 0.036509
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:07:10: INFO train_mnist.py:51]       loss [0006600]: 0.035502
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:07:17: INFO train_mnist.py:51]       loss [0006800]: 0.035455
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:07:24: INFO train_mnist.py:51]       loss [0007000]: 0.035590
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:07:31: INFO train_mnist.py:51]       loss [0007200]: 0.034908
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:07:38: INFO train_mnist.py:51]       loss [0007400]: 0.034879
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:07:45: INFO train_mnist.py:51]       loss [0007600]: 0.034705
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:07:52: INFO train_mnist.py:51]       loss [0007800]: 0.034925
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:07:59: INFO train_mnist.py:51]       loss [0008000]: 0.034700
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:08:06: INFO train_mnist.py:51]       loss [0008200]: 0.034703
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:08:13: INFO train_mnist.py:51]       loss [0008400]: 0.034178
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:08:20: INFO train_mnist.py:51]       loss [0008600]: 0.034070
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:08:27: INFO train_mnist.py:51]       loss [0008800]: 0.034067
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:08:34: INFO train_mnist.py:51]       loss [0009000]: 0.034317
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+2024-12-05 18:08:41: INFO train_mnist.py:51]       loss [0009200]: 0.033950
+sigmas: tensor([2.0000, 1.5133, 1.1450, 0.8664, 0.6555, 0.4960, 0.3753, 0.2840, 0.2149,
+        0.1626, 0.1230, 0.0931, 0.0704, 0.0533, 0.0403, 0.0305, 0.0231, 0.0175,
+        0.0132, 0.0100], device='cuda:0')
+Processing sigma: 2.0
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.5132935047149658
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 1.1450285911560059
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.8663821220397949
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.655545175075531
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.49601611495018005
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.37530896067619324
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.28397631645202637
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.21486973762512207
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.1625804901123047
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.12301599234342575
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.09307964891195297
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.07042840868234634
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.05328942835330963
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.04032127186655998
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.03050895780324936
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.023084502667188644
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.017466813325881958
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.01321620773524046
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
+Processing sigma: 0.009999999776482582
+Step: 0
+Step: 1
+Step: 2
+Step: 3
+Step: 4
+Step: 5
+Step: 6
+Step: 7
+Step: 8
+Step: 9
