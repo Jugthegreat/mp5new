@@ -18,19 +18,22 @@ from networks import UNet, SimpleEncoder, SimpleDecoder
 from absl import app, flags
 
 FLAGS = flags.FLAGS
-flags.DEFINE_float('lr', 1e-4, 'Learning Rate')
-flags.DEFINE_float('step_lr', 2e-5, 'Step LR for sampling')
-flags.DEFINE_integer('num_epochs', 20, 'Number of Epochs')  
+flags.DEFINE_float('lr', 5e-5, 'Learning Rate')  # Slightly smaller LR
+flags.DEFINE_float('step_lr', 1e-5, 'Step LR for sampling') 
+flags.DEFINE_integer('num_epochs', 50, 'Number of Epochs')  # More training time
 flags.DEFINE_integer('seed', 2, 'Random seed')
-flags.DEFINE_string('output_dir', 'runs/mnist-unet-improved/', 'Output Directory')
+flags.DEFINE_string('output_dir', 'runs/mnist-unet-improved2/', 'Output Directory')
 flags.DEFINE_string('model_type', 'unet', 'Network to use')
-flags.DEFINE_float('sigma_begin', 2.0, 'Largest sigma value')
-flags.DEFINE_float('sigma_end', 0.01, 'Smallest sigma value')
-flags.DEFINE_integer('noise_level', 20, 'Number of noise levels')
+
+# Adjust sigma range and type
+flags.DEFINE_float('sigma_begin', 1.0, 'Largest sigma value')
+flags.DEFINE_float('sigma_end', 0.005, 'Smallest sigma value')
+flags.DEFINE_integer('noise_level', 30, 'Number of noise levels')
+flags.DEFINE_string('sigma_type', 'linear', 'The type of sigma distribution') # Changed to linear
+
 flags.DEFINE_integer('log_every', 200, 'Frequency of logging the loss')
 flags.DEFINE_integer('sample_every', 200, 'Frequency for saving generated samples')
 flags.DEFINE_integer('batch_size', 128, 'Batch Size for Training')
-flags.DEFINE_string('sigma_type', 'geometric', 'The type of sigma distribution')
 flags.DEFINE_string('mnist_data_dir', './data', 'Where to download MNIST dataset')
 
 def setup_logging():
@@ -103,8 +106,8 @@ def train_scorenet(_):
             if iterations % FLAGS.sample_every == 0:
                 scorenet.eval()
                 with torch.no_grad():
-                    # Generate samples
-                    X_gen = scorenet.sample(64, 1024, step_lr=FLAGS.step_lr)[-1, -1].view(-1, 1, 32, 32)
+                    # Generate samples with more refinement steps
+                    X_gen = scorenet.sample(64, 1024, step_lr=FLAGS.step_lr, n_steps_each=50)[-1, -1].view(-1, 1, 32, 32)
                     
                     samples_image = BytesIO()
                     tvutils.save_image(X_gen, samples_image, 'png')
